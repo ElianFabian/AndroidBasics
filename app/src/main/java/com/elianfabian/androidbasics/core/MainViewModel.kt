@@ -12,7 +12,7 @@ class MainViewModel(
 	private val serviceScope: ServiceScope = ServiceScope(),
 ) : ScopedServices.Registered by serviceScope {
 
-	val isInternetConnectionTurnedOnFlow = airPlaneModeObserver.isTurnedOnFlow()
+	val isInternetConnectionTurnedOnFlow = airPlaneModeObserver.isTurnedOnFlow
 
 
 	fun startTimer() {
